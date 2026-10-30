@@ -61,6 +61,7 @@ A SaaS platform for performance marketers and media buyers, bringing together cl
 - 🌐 [ByteAssembly](https://byteassembly.dev)
 - 🚀 [Nitoriq](https://nitoriq.com)
 - 💻 [GitHub](https://github.com/Torpedo4007)
+- - 💻 [Upwork]([https://github.com/Torpedo4007](https://www.upwork.com/freelancers/~017a1549ad265e5735))
 
 ---
 
