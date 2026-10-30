@@ -2,8 +2,8 @@
 
 <div align="center">
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=246FDB&center=true&vCenter=true&width=600&lines=Server-side+GTM+%C2%B7+Meta+CAPI+%C2%B7+GA4;Conversion+tracking+that+actually+matches;TypeScript+%C2%B7+React+%C2%B7+Node.js+%C2%B7+PostgreSQL;Building+Nitoriq" alt="Typing SVG" />
+<a href="https://nitoriq.com">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=246FDB&center=true&vCenter=true&width=640&lines=Click+tracking+%C2%B7+attribution+%C2%B7+automation;Server-side+conversions+to+6+ad+platforms;Shopify+orders+matched+back+to+the+click;Built+solo%3A+Nitoriq" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -17,51 +17,70 @@
 
 ---
 
-## About
+I build the systems that tell marketers which clicks made money. For the past year that has meant designing and shipping **[Nitoriq](https://nitoriq.com)** on my own: a tracking, attribution and automation platform in the same category as Voluum, RedTrack and ClickFlare. I take the same work on for clients: conversion tracking, server-side events, Shopify attribution and the full-stack apps around them.
 
-I build reliable tracking and attribution systems, from event implementation and analytics to server-side tracking and conversion APIs. I help businesses collect accurate marketing data, measure conversions, and understand where their results come from.
+## Nitoriq
 
-- 📊 **Tracking & attribution:** conversion tracking, event implementation, analytics, attribution systems
-- 🏷️ **Tag management:** Google Tag Manager, data layers, triggers, variables
-- 🖥️ **Server-side tracking:** server-side GTM, event forwarding, measurement infrastructure
-- 🔗 **Conversion APIs:** Meta Conversions API, event matching, deduplication
-- ⚙️ **Full-stack:** TypeScript, React, Node.js, APIs, PostgreSQL, Redis
-- 🛍️ **Shopify:** tracking integrations, custom themes, embedded apps
+```mermaid
+flowchart LR
+    A([Ad click]) --> B[Tracking engine<br/>routing · bot & proxy filtering]
+    B --> C[Lander → Offer]
+    C -->|postback · pixel · Shopify order| D[Attribution<br/>dedupe · click matching]
+    F[Cost import<br/>10 ad platforms] --> R
+    B --> R[(Reporting store)]
+    D --> R
+    R --> G[Reports +<br/>AI Copilot · MCP]
+    R --> H[Automation<br/>engine]
+    D --> I[Conversions API<br/>delivery]
+    H --> P([Ad platforms])
+    I --> P
+```
 
-## Tracking & analytics
+| Area | What I built |
+|---|---|
+| **Click tracking** | Redirect and redirectless tracking, custom domains with DNS verification, conditional routing on geo, ASN, device, proxy, bot score, time of day and more (AND/OR, regex), weighted rotation, offer caps |
+| **Attribution** | Postback and pixel conversions deduplicated by transaction ID, lander-journey attribution, multi-currency with automatic FX conversion, 20 custom tracking fields |
+| **Integrations** | Cost import from Google Ads, Meta, TikTok, Snapchat, Pinterest, Reddit, Taboola, Outbrain, Revcontent, MGID. Server-side conversions to Meta, Google Ads, TikTok, Snapchat, Pinterest, Reddit. Revenue from ClickBank, Everflow, impact.com, Rakuten, Partnerize, AdSense |
+| **Shopify** | Embedded app with a Web Pixel and order webhooks. Matches each order back to its click with a confidence score and the evidence behind it, net of refunds |
+| **Tag manager** | Versioned containers, GA4 / Meta / Google Ads / TikTok tags, SPA, scroll and visibility triggers, dataLayer support, consent handling, pixel + CAPI dedupe |
+| **Automations** | Rules that pause, scale budgets, adjust bids and exclude placements across 7 ad platforms. Every rule can be simulated first and runs behind cooldowns, spend caps and read-back verification |
+| **AI Report Copilot** | Reads the report on screen, explains what changed and flags wasted spend. Also exposed to outside AI agents through an MCP server with OAuth and approval-gated writes |
+| **Reporting & API** | 3-level drill-down, formula metrics, saved views, shared links. REST API with OpenAPI spec, scoped keys and service principals (RS256 JWT) |
+
+**Engineering choices I'm proud of**
+
+- Redirects never wait on the database. Ingest is async, so a slow write can't slow down an ad click.
+- Browser pixels and server-side events share an event ID, so ad platforms count each conversion once.
+- Before an automation touches a live campaign, it checks provider health, data freshness and campaign mapping confidence, then reads the change back to confirm it landed.
+
+**Stack:** pnpm monorepo (app, API, docs, help center, Shopify app) · React · TypeScript · Express · PostgreSQL · ClickHouse · Redis · Docker
+
+<a href="https://nitoriq.com"><img src="https://img.shields.io/badge/Visit-nitoriq.com-246FDB?style=for-the-badge" alt="Visit Nitoriq" /></a>
+
+## Work with me
+
+- **Conversion tracking and CAPI:** GTM, GA4, server-side GTM, Meta Conversions API, event matching and deduplication
+- **Tracker setup and migration:** Nitoriq, Voluum, RedTrack, ClickFlare, with postbacks, cost import and campaign structure
+- **Shopify:** tracking audits, attribution fixes, custom themes, embedded apps
+- **Full-stack:** TypeScript, React, Node.js, PostgreSQL, Redis, WordPress, n8n automations
+
+<a href="https://www.upwork.com/freelancers/~017a1549ad265e5735"><img src="https://img.shields.io/badge/Hire%20me%20on-Upwork-14A800?style=for-the-badge&logo=upwork&logoColor=white" alt="Hire me on Upwork" /></a>
+
+## Tools
 
 <p>
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nodejs,express,postgres,redis,docker,tailwind,supabase,wordpress,linux&perline=12" alt="Stack" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black" alt="ClickHouse" />
   <img src="https://img.shields.io/badge/Google%20Tag%20Manager-246FDB?style=flat-square&logo=googletagmanager&logoColor=white" alt="Google Tag Manager" />
   <img src="https://img.shields.io/badge/Google%20Analytics%204-E37400?style=flat-square&logo=googleanalytics&logoColor=white" alt="Google Analytics 4" />
-  <img src="https://img.shields.io/badge/Server--side%20GTM-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Server-side Google Tag Manager" />
   <img src="https://img.shields.io/badge/Meta%20Conversions%20API-0467DF?style=flat-square&logo=meta&logoColor=white" alt="Meta Conversions API" />
   <img src="https://img.shields.io/badge/Shopify-7AB55C?style=flat-square&logo=shopify&logoColor=white" alt="Shopify" />
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n" />
 </p>
-
-## Development stack
-
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nodejs,postgres,redis,supabase,docker,tailwind,wordpress,git,linux&perline=12" alt="My Skills" />
-</p>
-
-## Featured project
-
-<table>
-  <tr>
-    <td>
-      <h3><a href="https://nitoriq.com">Nitoriq</a></h3>
-      <p>A SaaS platform for performance marketers and media buyers: click-level tracking and attribution, campaign routing, ad-spend and revenue integrations, server-side conversion delivery, advanced reporting, a built-in tag manager, and ad-account automations. Includes Shopify commerce attribution and an AI Report Copilot with an MCP server.</p>
-      <p>Built and maintained by me at <a href="https://byteassembly.dev">ByteAssembly</a>.</p>
-      <a href="https://nitoriq.com"><img src="https://img.shields.io/badge/Visit-nitoriq.com-246FDB?style=flat-square" alt="Visit Nitoriq" /></a>
-    </td>
-  </tr>
-</table>
-
-## GitHub activity
 
 <div align="center">
-
-<img src="https://streak-stats.demolab.com?user=Torpedo4007&hide_border=true&background=0D1117&ring=246FDB&fire=246FDB&currStreakLabel=246FDB&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="GitHub streak" />
 
 <!-- Snake animation: generated by .github/workflows/snake.yml into the "output" branch -->
 <picture>
@@ -70,12 +89,6 @@ I build reliable tracking and attribution systems, from event implementation and
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/Torpedo4007/Torpedo4007/output/github-snake.svg?v=2" />
 </picture>
 
-</div>
-
----
-
-<div align="center">
-  <sub>Building better measurement systems, one commit at a time.</sub>
 </div>
 
 <img width="100%" src="./assets/footer.svg" alt="" />
