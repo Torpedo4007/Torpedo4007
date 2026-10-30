@@ -1,70 +1,87 @@
+<!-- Header banner -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:246FDB&height=180&section=header&text=Hey,%20I'm%20Dolph%20👋&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Tracking%20%26%20Attribution%20Specialist%20·%20Full-Stack%20Developer&descAlignY=60&descSize=16" alt="Header" />
+
 <div align="center">
 
-# Hey, I'm Dolph 👋
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=246FDB&center=true&vCenter=true&width=600&lines=Server-side+GTM+%C2%B7+Meta+CAPI+%C2%B7+GA4;Conversion+tracking+that+actually+matches;TypeScript+%C2%B7+React+%C2%B7+Node.js+%C2%B7+PostgreSQL;Building+Nitoriq" alt="Typing SVG" />
+</a>
 
-**Tracking & Attribution Specialist · Full-Stack Developer**
+<br/>
 
-I build reliable tracking and attribution systems, from event implementation and analytics to server-side tracking and conversion APIs.
-
-[![Nitoriq](https://img.shields.io/badge/Product-Nitoriq-0972e2?style=for-the-badge)](https://nitoriq.com)
-[![ByteAssembly](https://img.shields.io/badge/ByteAssembly-Visit%20website-212121?style=for-the-badge)](https://byteassembly.dev)
+<a href="https://nitoriq.com"><img src="https://img.shields.io/badge/Nitoriq-246FDB?style=flat-square&logo=googleanalytics&logoColor=white" alt="Nitoriq" /></a>
+<a href="https://byteassembly.dev"><img src="https://img.shields.io/badge/ByteAssembly-0F172A?style=flat-square&logo=codeigniter&logoColor=white" alt="ByteAssembly" /></a>
+<a href="https://www.upwork.com/freelancers/~017a1549ad265e5735"><img src="https://img.shields.io/badge/Upwork-Hire%20me-14A800?style=flat-square&logo=upwork&logoColor=white" alt="Upwork" /></a>
+<img src="https://komarev.com/ghpvc/?username=Torpedo4007&style=flat-square&color=246FDB&label=Profile+views" alt="Profile views" />
 
 </div>
 
 ---
 
-### About
+## About
 
-My main focus is **tracking and attribution**. I work on the systems that help businesses collect accurate marketing data, measure conversions, and understand where their results come from.
+I build reliable tracking and attribution systems, from event implementation and analytics to server-side tracking and conversion APIs. I help businesses collect accurate marketing data, measure conversions, and understand where their results come from.
 
-- 📊 **Tracking & attribution:** Conversion tracking, event implementation, analytics, and attribution systems.
-- 🏷️ **Tag management:** Google Tag Manager, data layers, triggers, variables, and tracking setup.
-- 🖥️ **Server-side tracking:** Server-side GTM, event forwarding, and measurement infrastructure.
-- 🔗 **Conversion APIs:** Meta Conversions API, event matching, and deduplication workflows.
-- ⚙️ **Full-stack development:** TypeScript, React, Node.js, APIs, PostgreSQL, and Redis.
-- 🛍️ **Shopify:** Store tracking integrations, custom themes, and embedded apps.
-- 🚀 **Built and maintain:** [Nitoriq](https://nitoriq.com), a tracking, attribution, reporting, and automation platform for performance marketers and media buyers.
+- 📊 **Tracking & attribution:** conversion tracking, event implementation, analytics, attribution systems
+- 🏷️ **Tag management:** Google Tag Manager, data layers, triggers, variables
+- 🖥️ **Server-side tracking:** server-side GTM, event forwarding, measurement infrastructure
+- 🔗 **Conversion APIs:** Meta Conversions API, event matching, deduplication
+- ⚙️ **Full-stack:** TypeScript, React, Node.js, APIs, PostgreSQL, Redis
+- 🛍️ **Shopify:** tracking integrations, custom themes, embedded apps
 
-### Tracking & analytics
+## Tracking & analytics
+
+<p>
+  <img src="https://img.shields.io/badge/Google%20Tag%20Manager-246FDB?style=flat-square&logo=googletagmanager&logoColor=white" alt="Google Tag Manager" />
+  <img src="https://img.shields.io/badge/Google%20Analytics%204-E37400?style=flat-square&logo=googleanalytics&logoColor=white" alt="Google Analytics 4" />
+  <img src="https://img.shields.io/badge/Server--side%20GTM-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Server-side Google Tag Manager" />
+  <img src="https://img.shields.io/badge/Meta%20Conversions%20API-0467DF?style=flat-square&logo=meta&logoColor=white" alt="Meta Conversions API" />
+  <img src="https://img.shields.io/badge/Shopify-7AB55C?style=flat-square&logo=shopify&logoColor=white" alt="Shopify" />
+</p>
+
+## Development stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nodejs,postgres,redis,supabase,docker,tailwind,wordpress,git,linux&perline=12" alt="My Skills" />
+</p>
+
+## Featured project
+
+<table>
+  <tr>
+    <td>
+      <h3><a href="https://nitoriq.com">Nitoriq</a></h3>
+      <p>A SaaS platform for performance marketers and media buyers: click-level tracking and attribution, campaign routing, ad-spend and revenue integrations, server-side conversion delivery, advanced reporting, a built-in tag manager, and ad-account automations. Includes Shopify commerce attribution and an AI Report Copilot with an MCP server.</p>
+      <p>Built and maintained by me at <a href="https://byteassembly.dev">ByteAssembly</a>.</p>
+      <a href="https://nitoriq.com"><img src="https://img.shields.io/badge/Visit-nitoriq.com-246FDB?style=flat-square" alt="Visit Nitoriq" /></a>
+    </td>
+  </tr>
+</table>
+
+## GitHub activity
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Google%20Tag%20Manager-246FDB?style=flat-square&logo=googletagmanager&logoColor=white" alt="Google Tag Manager" />
-<img src="https://img.shields.io/badge/Google%20Analytics%204-E37400?style=flat-square&logo=googleanalytics&logoColor=white" alt="Google Analytics 4" />
-<img src="https://img.shields.io/badge/Meta%20Conversions%20API-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta Conversions API" />
-<img src="https://img.shields.io/badge/Server--Side%20GTM-4285F4?style=flat-square&logo=google&logoColor=white" alt="Server-side Google Tag Manager" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Torpedo4007&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=246FDB&icon_color=246FDB&text_color=C9D1D9" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Torpedo4007&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=246FDB&text_color=C9D1D9" alt="Top languages" />
+
+<img src="https://streak-stats.demolab.com?user=Torpedo4007&hide_border=true&background=0D1117&ring=246FDB&fire=246FDB&currStreakLabel=246FDB&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="GitHub streak" />
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Torpedo4007&hide_border=true&bg_color=0D1117&color=C9D1D9&line=246FDB&point=FFFFFF&area=true&area_color=246FDB" alt="Contribution graph" />
+
+<!-- Snake animation: generated by .github/workflows/snake.yml into the "output" branch -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Torpedo4007/Torpedo4007/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Torpedo4007/Torpedo4007/output/github-snake.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/Torpedo4007/Torpedo4007/output/github-snake.svg" />
+</picture>
 
 </div>
-
-### Development stack
-
-<div align="center">
-
-[![My Skills](https://skillicons.dev/icons?i=ts,js,react,nodejs,express,postgres,redis,docker,tailwind,git,github&perline=6)](https://skillicons.dev)
-
-<br />
-
-<img src="https://img.shields.io/badge/Shopify-7AB55C?style=flat-square&logo=shopify&logoColor=white" alt="Shopify" />
-
-</div>
-
-### Featured project
-
-**[Nitoriq](https://nitoriq.com)**
-
-A SaaS platform for performance marketers and media buyers, bringing together click-level tracking and attribution, campaign routing, ad-spend and revenue integrations, server-side conversion delivery, advanced reporting, a built-in tag manager, and ad-account automations. It also includes Shopify commerce attribution and an AI Report Copilot with an MCP server.
-
-**Built and maintained by me at [ByteAssembly](https://byteassembly.dev).**
-
-### Find me online
-
-- 🌐 [ByteAssembly](https://byteassembly.dev)
-- 🚀 [Nitoriq](https://nitoriq.com)
-- 💻 [GitHub](https://github.com/Torpedo4007)
-- 💻 [Upwork](https://www.upwork.com/freelancers/~017a1549ad265e5735)
 
 ---
 
 <div align="center">
   <sub>Building better measurement systems, one commit at a time.</sub>
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:246FDB,100:0F172A&height=100&section=footer" alt="Footer" />
