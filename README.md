@@ -2,9 +2,9 @@
 
 # Hey, I'm Torpedo4007 👋
 
-**Shopify Developer · Full-Stack Engineer**
+**Tracking & Attribution Specialist · Full-Stack Developer**
 
-I build Shopify experiences, web applications, and the systems behind them.
+I build reliable tracking and attribution systems, from event implementation and analytics to server-side tracking and conversion APIs.
 
 [![Nitoriq](https://img.shields.io/badge/Building-Nitoriq-0972e2?style=for-the-badge)](https://nitoriq.com)
 [![ByteAssembly](https://img.shields.io/badge/ByteAssembly-Visit%20website-212121?style=for-the-badge)](https://byteassembly.dev)
@@ -15,15 +15,28 @@ I build Shopify experiences, web applications, and the systems behind them.
 
 ### About
 
-I'm a developer focused on Shopify and full-stack web development. I enjoy working across the stack, from storefront experiences and embedded apps to APIs, integrations, and data systems.
+My main focus is **tracking and attribution**. I work on the systems that help businesses collect accurate marketing data, measure conversions, and understand where their results come from.
 
-- 🛍️ **Shopify:** Custom themes, storefronts, apps, and integrations.
-- ⚛️ **Frontend:** React, TypeScript, and modern web interfaces.
-- ⚙️ **Backend:** Node.js, APIs, PostgreSQL, Redis, and data-driven systems.
-- 📊 **Tracking & analytics:** Attribution, event tracking, and marketing technology.
+- 📊 **Tracking & attribution:** Conversion tracking, event implementation, analytics, and attribution systems.
+- 🏷️ **Tag management:** Google Tag Manager, data layers, triggers, variables, and tracking setup.
+- 🖥️ **Server-side tracking:** Server-side GTM, event forwarding, and measurement infrastructure.
+- 🔗 **Conversion APIs:** Meta Conversions API, event matching, and deduplication workflows.
+- ⚙️ **Full-stack development:** TypeScript, React, Node.js, APIs, PostgreSQL, and Redis.
+- 🛍️ **Shopify:** Store tracking integrations, custom themes, and embedded apps.
 - 🚀 **Currently building:** [Nitoriq](https://nitoriq.com), a tracking, attribution, reporting, and automation platform for performance marketing and commerce.
 
-### Tech I work with
+### Tracking & analytics
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Google%20Tag%20Manager-246FDB?style=flat-square&logo=googletagmanager&logoColor=white" alt="Google Tag Manager" />
+<img src="https://img.shields.io/badge/Google%20Analytics%204-E37400?style=flat-square&logo=googleanalytics&logoColor=white" alt="Google Analytics 4" />
+<img src="https://img.shields.io/badge/Meta%20Conversions%20API-0866FF?style=flat-square&logo=meta&logoColor=white" alt="Meta Conversions API" />
+<img src="https://img.shields.io/badge/Server--Side%20GTM-4285F4?style=flat-square&logo=google&logoColor=white" alt="Server-side Google Tag Manager" />
+
+</div>
+
+### Development stack
 
 <div align="center">
 
@@ -39,7 +52,7 @@ I'm a developer focused on Shopify and full-stack web development. I enjoy worki
 
 **[Nitoriq](https://nitoriq.com)**
 
-A platform for tracking, attribution, reporting, and automation across performance marketing and commerce workflows. Built by [ByteAssembly](https://byteassembly.dev).
+A tracking, attribution, reporting, and automation platform for performance marketing and commerce workflows. Built by [ByteAssembly](https://byteassembly.dev).
 
 ### Find me online
 
@@ -50,5 +63,5 @@ A platform for tracking, attribution, reporting, and automation across performan
 ---
 
 <div align="center">
-  <sub>Building useful things, one commit at a time.</sub>
+  <sub>Building better measurement systems, one commit at a time.</sub>
 </div>
