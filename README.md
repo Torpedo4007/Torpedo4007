@@ -6,7 +6,7 @@
 
 I build reliable tracking and attribution systems, from event implementation and analytics to server-side tracking and conversion APIs.
 
-[![Nitoriq](https://img.shields.io/badge/Building-Nitoriq-0972e2?style=for-the-badge)](https://nitoriq.com)
+[![Nitoriq](https://img.shields.io/badge/Product-Nitoriq-0972e2?style=for-the-badge)](https://nitoriq.com)
 [![ByteAssembly](https://img.shields.io/badge/ByteAssembly-Visit%20website-212121?style=for-the-badge)](https://byteassembly.dev)
 
 </div>
@@ -23,7 +23,7 @@ My main focus is **tracking and attribution**. I work on the systems that help b
 - 🔗 **Conversion APIs:** Meta Conversions API, event matching, and deduplication workflows.
 - ⚙️ **Full-stack development:** TypeScript, React, Node.js, APIs, PostgreSQL, and Redis.
 - 🛍️ **Shopify:** Store tracking integrations, custom themes, and embedded apps.
-- 🚀 **Currently building:** [Nitoriq](https://nitoriq.com), a tracking, attribution, reporting, and automation platform for performance marketing and commerce.
+- 🚀 **Built and maintain:** [Nitoriq](https://nitoriq.com), a tracking, attribution, reporting, and automation platform for performance marketers and media buyers.
 
 ### Tracking & analytics
 
@@ -52,7 +52,9 @@ My main focus is **tracking and attribution**. I work on the systems that help b
 
 **[Nitoriq](https://nitoriq.com)**
 
-A tracking, attribution, reporting, and automation platform for performance marketing and commerce workflows. Built by [ByteAssembly](https://byteassembly.dev).
+A SaaS platform for performance marketers and media buyers, bringing together click-level tracking and attribution, campaign routing, ad-spend and revenue integrations, server-side conversion delivery, advanced reporting, a built-in tag manager, and ad-account automations. It also includes Shopify commerce attribution and an AI Report Copilot with an MCP server.
+
+**Built and maintained by me at [ByteAssembly](https://byteassembly.dev).**
 
 ### Find me online
 
